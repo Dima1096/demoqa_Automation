@@ -1,0 +1,8 @@
+{
+  "url": "https://demoqa.com/",
+  "incognito": "true",
+  "time out": "1500",
+  "browser": "chrome",
+  "chrome language": "русский",
+  "chrome maximized": "true"
+}

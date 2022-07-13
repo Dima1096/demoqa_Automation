@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/java/d.datsik">
+        <parameter name="length" value="9"/>
+        <classes>
+            <class name="project.tests.Test1_Alerts">
+                <methods>
+                    <include name="testAlerts"/>
+                </methods>
+            </class>
+            <class name="project.tests.Test2_Iframe">
+                <methods>
+                    <include name="testIframe"/>
+                </methods>
+            </class>
+            <class name="project.tests.Test3_Tables">
+                <methods>
+                    <include name="testTables"/>
+                </methods>
+            </class>
+            <class name="project.tests.Test4_Handles">
+                <methods>
+                    <include name="testHandles"/>
+                </methods>
+            </class>
+            <class name="project.tests.Test5_Slider_ProgressBar">
+                <methods>
+                    <include name="TestSliderProgressBar"/>
+                </methods>
+            </class>
+            <class name="project.tests.Test6_DatePicker">
+                <methods>
+                    <include name="testDatePicker"/>
+                </methods>
+            </class>
+            <class name="project.tests.Test7_UploadingAndDownloading">
+                <methods>
+                    <include name="testUploadingAndDownloading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
