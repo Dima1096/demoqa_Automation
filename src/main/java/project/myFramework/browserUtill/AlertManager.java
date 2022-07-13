@@ -5,8 +5,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import project.config.JsonParser;
-import project.myFramework.driver.Driver;
-import project.pages.ProgressBarPage;
+import project.myFramework.driver.*;
 
 import java.time.Duration;
 

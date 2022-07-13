@@ -1,6 +1,5 @@
 package project.myFramework.driver;
 
-import project.config.*;
 import org.openqa.selenium.WebDriver;
 import project.config.JsonParser;
 

@@ -3,9 +3,9 @@ package project.tests;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project.config.JsonParser;
-import project.myFramework.browserUtill.BrowserUtill;
-import project.myFramework.driver.Driver;
+import project.config.*;
+import project.myFramework.browserUtill.*;
+import project.myFramework.driver.*;
 import project.pages.*;
 
 public class Test4_Handles extends BaseTest {

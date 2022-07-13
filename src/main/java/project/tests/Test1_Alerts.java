@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import project.config.JsonParser;
 import project.myFramework.browserUtill.AlertManager;
 import project.myFramework.browserUtill.BrowserUtill;
-import project.myFramework.driver.Driver;
 import project.pages.AlertsFrameWindowsPage;
 import project.pages.AlertsPage;
 import project.pages.MainPage;

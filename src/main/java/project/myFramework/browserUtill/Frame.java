@@ -3,7 +3,7 @@ package project.myFramework.browserUtill;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import project.myFramework.driver.Driver;
+import project.myFramework.driver.*;
 
 public class Frame {
     private By locator;
