@@ -56,7 +56,7 @@ public class NavigateBar extends BasePage {
     }
 
     public void clickBrowserWindows() {
-        browserWindows.click();
+        browserWindows.clickJS();
     }
 
     public void clickElements() {
