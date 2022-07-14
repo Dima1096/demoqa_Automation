@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/java/d.datsik">
+    <test verbose="2" name="C:/java/d.datsik">
         <parameter name="length" value="9"/>
         <classes>
             <class name="project.tests.Test1_Alerts">
