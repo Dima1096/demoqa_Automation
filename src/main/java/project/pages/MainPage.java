@@ -22,17 +22,17 @@ public class MainPage extends BasePage {
     private Button widgetsButton = new Button(widgetsLoc, "Elements button");
 
     public void clickAlertsButton(){
-        alertsButton.findeElement().click();
+        alertsButton.clickJS();
         log.info(alertsButton.getName()+" is clicked");
     }
 
     public void clickElementsButton(){
-        elementsButton.findeElement().click();
+        elementsButton.clickJS();
         log.info(elementsButton.getName()+" is clicked");
     }
 
     public void clickWidgetsButton(){
-        widgetsButton.findeElement().click();
+        widgetsButton.clickJS();
     }
 
 }
