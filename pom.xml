@@ -27,6 +27,9 @@
                             testng.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <BROWSER>browser</BROWSER>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
@@ -76,5 +79,6 @@
         </dependency>
 
     </dependencies>
+
 
 </project>

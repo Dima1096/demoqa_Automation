@@ -20,6 +20,9 @@ public class Test1_Alerts extends BaseTest {
     @Test
     public void testAlerts(int length) {
         log.info("Step 1");
+        String s = System.getProperty("browser");
+        System.out.println(s);
+
         BrowserUtill.get(JsonParser.parseURL());
         MainPage mainP = new MainPage();
         Assert.assertTrue(mainP.isOpen(), "Main page is not opened");

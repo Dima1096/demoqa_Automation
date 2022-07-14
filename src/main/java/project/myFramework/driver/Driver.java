@@ -17,7 +17,7 @@ public class Driver {
     public static WebDriver initi() {
         if (driver == null) {
             BrowserFactory factory = new BrowserFactory();
-            driver = factory.createDriver(JsonParser.BrowserName().toLowerCase());
+            driver = factory.createDriver(System.getProperty("browser").toLowerCase());
         }
         return driver;
     }

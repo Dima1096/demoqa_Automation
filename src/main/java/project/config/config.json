@@ -3,6 +3,6 @@
   "incognito": "true",
   "time out": "1500",
   "browser": "chrome",
-  "chrome language": "русский",
+  "chrome language": "english",
   "chrome maximized": "true"
 }
