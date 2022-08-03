@@ -16,7 +16,7 @@ public class BaseTest {
     @AfterMethod
     void teardown(){
         Driver.quiteDriver();
-        log.info("theыффend");
+        log.info("the end");
     }
     @AfterGroups(groups = {"download"})
     void AfterDownload(){

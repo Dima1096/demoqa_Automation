@@ -1,1 +1,0 @@
-java testng.xml
