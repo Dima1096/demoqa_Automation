@@ -3,11 +3,9 @@ package project.config;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import project.testData.User;
+import project.testData.*;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 

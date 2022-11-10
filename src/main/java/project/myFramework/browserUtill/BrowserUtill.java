@@ -1,6 +1,6 @@
 package project.myFramework.browserUtill;
 
-import project.myFramework.driver.Driver;
+import project.myFramework.driver.*;
 
 public class BrowserUtill {
     public static String getIdWindows(){

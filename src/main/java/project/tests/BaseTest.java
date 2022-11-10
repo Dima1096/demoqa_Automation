@@ -2,9 +2,8 @@ package project.tests;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.*;
-import project.config.JsonParser;
-import project.myFramework.driver.Driver;
-import project.myFramework.myUtills.Utills;
+import project.myFramework.driver.*;
+import project.myFramework.myUtills.*;
 
 import java.io.File;
 
@@ -17,7 +16,7 @@ public class BaseTest {
     @AfterMethod
     void teardown(){
         Driver.quiteDriver();
-        log.info("end");
+        log.info("the end");
     }
     @AfterGroups(groups = {"download"})
     void AfterDownload(){

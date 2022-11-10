@@ -1,7 +1,6 @@
 package project.myFramework.pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebElement;
 import project.myFramework.elements.BaseElement;
 
 public abstract class BasePage {

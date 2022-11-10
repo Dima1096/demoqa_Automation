@@ -1,6 +1,5 @@
 package project.pages;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import project.myFramework.elements.Button;
 import project.myFramework.elements.Label;

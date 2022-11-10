@@ -1,7 +1,6 @@
 package project.myFramework.driver;
 
 import org.openqa.selenium.firefox.FirefoxProfile;
-import project.config.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

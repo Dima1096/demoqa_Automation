@@ -4,10 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import project.myFramework.elements.Input;
 import project.myFramework.elements.Label;
-import project.myFramework.myUtills.Utills;
 import project.myFramework.pages.BasePage;
-
-import java.util.Locale;
 
 public class DatePickerPage extends BasePage {
     public DatePickerPage() {

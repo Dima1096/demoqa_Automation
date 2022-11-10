@@ -1,19 +1,13 @@
 package project.myFramework.myUtills;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import project.testData.User;
-import project.tests.Test7_UploadingAndDownloading;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
-import java.util.regex.Pattern;
 
 public class Utills {
     final static Logger log = Logger.getLogger(Utills.class);

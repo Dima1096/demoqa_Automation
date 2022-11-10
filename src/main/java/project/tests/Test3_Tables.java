@@ -8,7 +8,6 @@ import project.myFramework.browserUtill.BrowserUtill;
 import project.myFramework.myUtills.Utills;
 import project.testData.User;
 import project.config.JsonParser;
-import project.myFramework.driver.Driver;
 import project.pages.ElementsPage;
 import project.pages.MainPage;
 import project.pages.WebTablesPage;

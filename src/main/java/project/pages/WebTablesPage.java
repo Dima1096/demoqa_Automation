@@ -102,7 +102,7 @@ public class WebTablesPage extends BasePage {
     public void deleteRow(String email) {
 
         Button delete = new Button(By.xpath(String.format(rowLocatorEmail, email) + delletbuttinloc), "Delete button");
-        delete.click();
+        delete.clickJS();
         log.info("Row for " + email + " has been deleted");
     }
 
